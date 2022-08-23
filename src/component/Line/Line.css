@@ -1,0 +1,33 @@
+.lineContent {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  border-radius: 15px;
+  margin-top: 15px;
+  background-color: #f8f8fc;
+}
+.lineHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+.lineData {
+  padding: 10px;
+  border-radius: 15px;
+}
+.lineItems {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.lineItem {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  height: 45px;
+  align-items: center;
+  padding: 0 8px 0 8px;
+  border-radius: 8px;
+  font-size: 11px;
+}
